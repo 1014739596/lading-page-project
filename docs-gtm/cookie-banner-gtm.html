@@ -1,0 +1,29 @@
+<!-- Pega TODO este contenido en GTM: Etiquetas > Nueva > HTML personalizado
+     Activación: All Pages (Page View). Nombre sugerido: "Banner de cookies" -->
+<style>
+  #cookie-banner{position:fixed;left:16px;bottom:16px;max-width:380px;z-index:99999;background:#0f172a;color:#e2e8f0;
+    padding:18px 20px;border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,.35);font-family:Inter,Arial,sans-serif;font-size:14px;line-height:1.5}
+  #cookie-banner p{margin:0 0 12px}
+  #cookie-banner button{border:0;border-radius:8px;padding:9px 16px;font-weight:600;cursor:pointer;margin-right:8px}
+  #cookie-accept{background:#2563eb;color:#fff}
+  #cookie-reject{background:#334155;color:#e2e8f0}
+</style>
+<script>
+(function(){
+  try{ if(localStorage.getItem('cookie_consent')) return; }catch(e){}
+  var box = document.createElement('div');
+  box.id = 'cookie-banner';
+  box.innerHTML = '<p>🍪 Usamos cookies para mejorar tu experiencia y medir el uso del sitio.</p>' +
+    '<button id="cookie-accept">Aceptar</button><button id="cookie-reject">Rechazar</button>';
+  document.body.appendChild(box);
+
+  function choose(value){
+    try{ localStorage.setItem('cookie_consent', value); }catch(e){}
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({event:'cookie_consent', consent_value:value});
+    box.remove();
+  }
+  document.getElementById('cookie-accept').onclick = function(){ choose('accepted'); };
+  document.getElementById('cookie-reject').onclick = function(){ choose('rejected'); };
+})();
+</script>

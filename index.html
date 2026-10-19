@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!-- 1) GTM: pega aquí el bloque <script> de Google Tag Manager (lo más alto del <head>) -->
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-XXXXXXX');</script>
+  <!-- End Google Tag Manager -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeNova | Aprende a programar desde cero</title>
+  <meta name="description" content="Curso online de programación web de 12 semanas con proyectos reales, mentores en vivo, certificado y bolsa de empleo. Inscríbete hoy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 2) GTM: pega aquí el bloque <noscript> justo después de abrir <body> -->
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <div class="topbar">🔥 Inscripciones abiertas: <b>15% de descuento</b> para los primeros 50 inscritos de la nueva cohorte.</div>
+
+  <!-- ============ 1. HEADER ============ -->
+  <header>
+    <div class="nav">
+      <a href="#inicio" class="logo">Code<span>Nova</span><small>Escuela de programación online</small></a>
+      <nav aria-label="Principal">
+        <ul>
+          <li><a href="#beneficios" data-nav="beneficios">Beneficios</a></li>
+          <li><a href="#como-funciona" data-nav="como-funciona">Cómo funciona</a></li>
+          <li><a href="#temario" data-nav="temario">Temario</a></li>
+          <li><a href="#testimonios" data-nav="testimonios">Testimonios</a></li>
+          <li><a href="#faq" data-nav="faq">FAQ</a></li>
+          <li><a href="#contacto" data-nav="contacto">Contacto</a></li>
+        </ul>
+      </nav>
+      <a href="#registro" class="btn" style="padding:.6rem 1.2rem;font-size:.9rem" data-nav="header-cta">Inscríbete</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ 2. HERO ============ -->
+    <section class="hero" id="inicio">
+      <div class="container">
+        <div>
+          <span class="badge">🚀 Nueva cohorte · Inicio el 2 de noviembre · Cupos limitados</span>
+          <h1>Aprende a programar y consigue tu <em>primer empleo tech</em></h1>
+          <p>Un programa online de desarrollo web de 12 semanas, pensado para personas sin experiencia que quieren cambiar de carrera o mejorar su perfil profesional.</p>
+          <ul class="checks">
+            <li>Clases en vivo y grabadas, con mentor asignado</li>
+            <li>5 proyectos reales para tu portafolio</li>
+            <li>Certificado y acceso a bolsa de empleo</li>
+          </ul>
+          <div class="hero-actions">
+            <a href="#registro" id="btn-cta-principal" class="btn alt">Inscribirme Ahora</a>
+            <small>Sin costo de inscripción · Cancela cuando quieras en los primeros 15 días</small>
+          </div>
+          <div class="hero-stats">
+            <div><b>+2.500</b><span>Estudiantes formados</span></div>
+            <div><b>4.8/5</b><span>Valoración promedio</span></div>
+            <div><b>87%</b><span>Consigue empleo en 6 meses</span></div>
+          </div>
+        </div>
+        <div class="code-card" aria-hidden="true">
+          <span class="c">// Tu primera línea de código</span><br>
+          <span class="k">const</span> futuro = <span class="k">new</span> Carrera();<br>
+          futuro.<span class="s">aprender</span>([<span class="s">"HTML"</span>, <span class="s">"CSS"</span>, <span class="s">"JavaScript"</span>]);<br>
+          futuro.<span class="s">construir</span>(<span class="s">"5 proyectos"</span>);<br>
+          futuro.<span class="s">iniciar</span>(<span class="s">"CodeNova"</span>);<br>
+          <span class="c">// ✅ Listo para despegar</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 3. BENEFICIOS ============ -->
+    <section id="beneficios">
+      <div class="container">
+        <h2>¿Por qué estudiar con nosotros?</h2>
+        <p class="sub">No te vendemos solo videos: te acompañamos de principio a fin con una metodología práctica, apoyo humano y resultados medibles.</p>
+        <div class="grid g3">
+          <div class="card"><div class="ico">🧑‍🏫</div><h3>Mentores expertos</h3><p>Aprendes con desarrolladores que trabajan hoy en empresas de tecnología. Cada estudiante tiene un mentor asignado, sesiones de resolución de dudas semanales y revisión de código personalizada.</p><span class="tag">1 mentor por cada 15 alumnos</span></div>
+          <div class="card"><div class="ico">💻</div><h3>Proyectos reales</h3><p>Construyes una landing page, un sitio e-commerce, una app de tareas, un consumo de APIs y un proyecto final. Todos quedan publicados en GitHub para mostrarlos en entrevistas.</p><span class="tag">5 proyectos de portafolio</span></div>
+          <div class="card"><div class="ico">🎓</div><h3>Certificado verificable</h3><p>Al terminar recibes un certificado digital con código de verificación que puedes agregar a LinkedIn y a tu hoja de vida para respaldar tus conocimientos.</p><span class="tag">Reconocido por empresas aliadas</span></div>
+          <div class="card"><div class="ico">⏰</div><h3>Horarios flexibles</h3><p>Todas las clases en vivo quedan grabadas. Puedes estudiar de noche o fines de semana, ideal si trabajas o estudias. Solo necesitas unas 6 horas por semana.</p><span class="tag">Acceso 24/7 a las grabaciones</span></div>
+          <div class="card"><div class="ico">🤝</div><h3>Comunidad activa</h3><p>Entras a un grupo privado con estudiantes y egresados donde resuelves dudas, compartes oportunidades, formas equipos y haces networking con otros programadores.</p><span class="tag">+2.500 miembros</span></div>
+          <div class="card"><div class="ico">💼</div><h3>Bolsa de empleo y carrera</h3><p>Te ayudamos con tu hoja de vida, perfil de LinkedIn y simulacros de entrevista técnica. Además accedes a vacantes exclusivas de más de 80 empresas aliadas.</p><span class="tag">Asesoría de empleabilidad incluida</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 4. CTA ============ -->
+    <section class="cta" id="cta-1">
+      <div class="container">
+        <div>
+          <h2>¿Listo para empezar tu carrera en tecnología?</h2>
+          <p>La demanda de desarrolladores sigue creciendo y las empresas buscan talento con proyectos demostrables. Hoy puedes dar el primer paso, aunque nunca hayas escrito una línea de código.</p>
+          <ul class="checks">
+            <li>No necesitas conocimientos previos ni título universitario</li>
+            <li>Solo requieres un computador e internet</li>
+            <li>Material, plantillas y soporte incluidos</li>
+            <li>Garantía de devolución durante los primeros 15 días</li>
+          </ul>
+        </div>
+        <div class="cta-box">
+          <small>Precio de lanzamiento</small>
+          <div class="price">$349.000 <small style="display:inline"><s>$410.000 COP</s></small></div>
+          <small>o hasta en 6 cuotas sin interés</small>
+          <a href="#registro" id="btn-cta-secundario" class="btn alt">Quiero mi cupo</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 5. EXPLICACIÓN ============ -->
+    <section class="steps" id="como-funciona">
+      <div class="container">
+        <h2>Así funciona el programa</h2>
+        <p class="sub">Un camino claro de principio a fin: te explicamos qué vas a hacer cada semana y cómo te acompañamos para que no te quedes a mitad de camino.</p>
+        <div class="grid g2">
+          <div class="step"><div class="num">1</div><div><h3>Regístrate y agenda tu orientación</h3><p>Déjanos tus datos y un asesor te llamará para conocer tu objetivo, resolver tus dudas y recomendarte el ritmo de estudio ideal.</p></div></div>
+          <div class="step"><div class="num">2</div><div><h3>Aprende haciendo</h3><p>Cada semana tienes una clase en vivo, lecciones cortas en video, ejercicios guiados y un reto práctico que revisa tu mentor.</p></div></div>
+          <div class="step"><div class="num">3</div><div><h3>Construye tu portafolio</h3><p>A medida que avanzas publicas tus proyectos en GitHub y en un sitio personal, con feedback directo sobre diseño y calidad del código.</p></div></div>
+          <div class="step"><div class="num">4</div><div><h3>Prepárate y consigue empleo</h3><p>En las últimas semanas trabajamos tu hoja de vida, LinkedIn y entrevistas técnicas, y te conectamos con nuestra red de empresas aliadas.</p></div></div>
+        </div>
+
+        <div class="temario" id="temario">
+          <h3>Temario del curso</h3>
+          <div class="grid g3">
+            <div class="mod"><small>Semanas 1–2</small><h4>Fundamentos web</h4><p>Cómo funciona internet, herramientas del programador, Git y GitHub, y tu primera página en HTML.</p></div>
+            <div class="mod"><small>Semanas 3–4</small><h4>CSS y diseño responsive</h4><p>Estilos, Flexbox, Grid, tipografía, color y diseño adaptable a móvil y escritorio.</p></div>
+            <div class="mod"><small>Semanas 5–7</small><h4>JavaScript</h4><p>Variables, funciones, DOM, eventos y lógica de programación aplicada a casos reales.</p></div>
+            <div class="mod"><small>Semanas 8–9</small><h4>APIs y datos</h4><p>Consumo de APIs con fetch, formularios, validaciones y manejo de datos en el navegador.</p></div>
+            <div class="mod"><small>Semanas 10–11</small><h4>Analítica y conversión</h4><p>Google Tag Manager, Google Analytics 4, CRM y herramientas de comportamiento de usuario.</p></div>
+            <div class="mod"><small>Semana 12</small><h4>Proyecto final y empleo</h4><p>Presentación del proyecto, portafolio, hoja de vida y simulacros de entrevista.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 6. TESTIMONIOS ============ -->
+    <section id="testimonios">
+      <div class="container">
+        <h2>Lo que dicen nuestros estudiantes</h2>
+        <p class="sub">Más de 2.500 personas han pasado por CodeNova. Estas son algunas de sus historias y los resultados que lograron.</p>
+        <div class="grid g3">
+          <div class="card"><div class="stars">★★★★★</div><p class="quote">“Empecé sin saber nada de tecnología y en 3 meses ya tenía mi primer proyecto publicado. Los mentores responden rápido y explican con paciencia.”</p>
+            <div class="who"><div class="avatar">LM</div><div><strong>Laura Martínez</strong><small>Desarrolladora Frontend · Bogotá</small></div></div><div class="result">✔ Consiguió empleo a las 5 semanas de graduarse</div></div>
+          <div class="card"><div class="stars">★★★★★</div><p class="quote">“El enfoque práctico marcó la diferencia. Mi portafolio con los proyectos del curso fue lo que más valoraron en las entrevistas.”</p>
+            <div class="who"><div class="avatar">CR</div><div><strong>Carlos Ramírez</strong><small>Desarrollador Web Jr. · Medellín</small></div></div><div class="result">✔ Pasó de ventas a tecnología con +40% de salario</div></div>
+          <div class="card"><div class="stars">★★★★★</div><p class="quote">“Trabajo todo el día y pude estudiar de noche gracias a las grabaciones. Flexible, claro y muy bien explicado.”</p>
+            <div class="who"><div class="avatar">SP</div><div><strong>Sofía Pérez</strong><small>Freelancer · Cali</small></div></div><div class="result">✔ Ya tiene 4 clientes de páginas web</div></div>
+          <div class="card"><div class="stars">★★★★★</div><p class="quote">“La comunidad es lo mejor. Siempre hay alguien dispuesto a ayudarte y a compartir ofertas de trabajo.”</p>
+            <div class="who"><div class="avatar">AG</div><div><strong>Andrés Gómez</strong><small>Desarrollador Fullstack · Barranquilla</small></div></div><div class="result">✔ Contratado por una empresa aliada</div></div>
+          <div class="card"><div class="stars">★★★★★</div><p class="quote">“Las sesiones de entrevistas técnicas me quitaron el miedo. Llegué preparada y con confianza a mi primera entrevista real.”</p>
+            <div class="who"><div class="avatar">MT</div><div><strong>María Torres</strong><small>QA y Frontend · Bucaramanga</small></div></div><div class="result">✔ Primer empleo en tecnología en 2 meses</div></div>
+          <div class="card"><div class="stars">★★★★☆</div><p class="quote">“Es exigente, pero vale la pena. Aprendí más en 12 semanas que en un año intentando solo con videos sueltos.”</p>
+            <div class="who"><div class="avatar">JR</div><div><strong>Juan Rojas</strong><small>Emprendedor digital · Bogotá</small></div></div><div class="result">✔ Lanzó su propia tienda en línea</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 7. CTA 2 + FORMULARIO HUBSPOT ============ -->
+    <section class="cta2" id="registro">
+      <div class="container">
+        <div>
+          <h2>Reserva tu cupo hoy</h2>
+          <p class="lead">Déjanos tus datos y un asesor te contactará en menos de 24 horas para resolver tus dudas y ayudarte a elegir el mejor plan de pago.</p>
+          <ul class="checks">
+            <li>Orientación gratuita y sin compromiso</li>
+            <li>Acceso a una clase de muestra de HTML y CSS</li>
+            <li>Guía PDF: "Ruta para ser desarrollador web"</li>
+            <li>Información de becas y descuentos vigentes</li>
+          </ul>
+          <div class="guarantee">🛡️ <b>Garantía de 15 días:</b> si el programa no es para ti, te devolvemos tu dinero sin preguntas.</div>
+        </div>
+        <div class="form-box">
+          <h3>Quiero más información</h3>
+          <p>Completa el formulario. Solo el correo es obligatorio.</p>
+          <!-- 3) HUBSPOT: reemplaza portalId y formId (o pega aquí tu código de inserción) -->
+          <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+          <script>
+            hbspt.forms.create({
+              region: "na1",            // cámbialo si tu código de HubSpot dice otra región (ej. na2, eu1)
+              portalId: "TU_PORTAL_ID",
+              formId: "TU_FORM_ID"
+            });
+          </script>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 8. FAQ ============ -->
+    <section id="faq">
+      <div class="container">
+        <h2>Preguntas frecuentes</h2>
+        <p class="sub">Resolvemos las dudas más comunes antes de inscribirte. Si no encuentras la tuya, escríbenos.</p>
+        <div class="faq-wrap">
+          <details data-faq="requisitos"><summary>¿Necesito experiencia previa?</summary><p>No. El programa empieza desde cero y avanza de forma progresiva. Solo necesitas ganas de aprender, un computador con internet y dedicar unas 6 horas por semana.</p></details>
+          <details data-faq="duracion"><summary>¿Cuánto dura el programa y cuándo empieza?</summary><p>Dura 12 semanas. La nueva cohorte inicia el 2 de noviembre y las clases en vivo son entre semana en la noche, con grabación disponible por si no puedes asistir.</p></details>
+          <details data-faq="certificado"><summary>¿Recibiré un certificado?</summary><p>Sí. Al completar los proyectos y el trabajo final recibirás un certificado digital con código de verificación, que puedes compartir en LinkedIn.</p></details>
+          <details data-faq="pagos"><summary>¿Qué medios de pago aceptan?</summary><p>Tarjeta de crédito o débito, transferencia bancaria y plataformas de pago locales. Puedes pagar de contado o hasta en 6 cuotas sin interés.</p></details>
+          <details data-faq="soporte"><summary>¿Tendré apoyo si me atasco?</summary><p>Claro. Cuentas con mentorías en vivo, un canal de chat con respuesta en menos de 24 horas y la comunidad de estudiantes para resolver dudas.</p></details>
+          <details data-faq="equipo"><summary>¿Qué computador necesito?</summary><p>Cualquier computador con 4 GB de RAM, navegador actualizado e internet estable. Todas las herramientas que usamos son gratuitas.</p></details>
+          <details data-faq="empleo"><summary>¿Me garantizan un empleo?</summary><p>No podemos garantizarlo, porque depende de tu esfuerzo y del mercado, pero te damos portafolio, asesoría de hoja de vida, simulacros de entrevista y acceso a vacantes de empresas aliadas. El 87% de nuestros egresados consigue empleo en 6 meses.</p></details>
+          <details data-faq="devolucion"><summary>¿Puedo pedir la devolución de mi dinero?</summary><p>Sí. Tienes 15 días desde el inicio del curso para solicitar el reembolso total, sin tener que justificar tu decisión.</p></details>
+          <details data-faq="trabajo"><summary>¿Puedo estudiar si trabajo o estudio?</summary><p>Sí. El programa está diseñado para personas ocupadas: las clases quedan grabadas y puedes avanzar a tu ritmo dentro de cada semana.</p></details>
+          <details data-faq="edad"><summary>¿Hay requisito de edad o estudios?</summary><p>Debes ser mayor de 16 años. No pedimos título universitario ni bachillerato específico.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 9. PRE-FOOTER ============ -->
+    <section class="prefooter" id="prefooter">
+      <div class="container">
+        <h2>Únete a una comunidad en crecimiento</h2>
+        <p class="sub">Desde 2020 hemos formado a miles de personas que hoy trabajan en tecnología en Colombia y Latinoamérica.</p>
+        <div class="stats">
+          <div><b>+2.500</b>Estudiantes</div>
+          <div><b>94%</b>Satisfacción</div>
+          <div><b>+80</b>Empresas aliadas</div>
+          <div><b>12</b>Países</div>
+        </div>
+        <p style="color:#64748b;font-size:.9rem">Nuestros egresados trabajan en empresas como:</p>
+        <div class="logos"><span>TechCorp</span><span>PixelLab</span><span>DataWave</span><span>NubeSoft</span><span>AppFactory</span></div>
+        <div class="newsletter">
+          <h3>📩 Recibe consejos gratis para aprender a programar</h3>
+          <p style="font-size:.92rem;color:#64748b">Cada semana enviamos recursos, tutoriales y ofertas de empleo. Sin spam, puedes darte de baja cuando quieras.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ 10. FOOTER ============ -->
+  <footer id="contacto">
+    <div class="foot">
+      <div>
+        <h4>CodeNova</h4>
+        <p>Formamos a la próxima generación de desarrolladores con un enfoque práctico, mentores reales y acompañamiento hasta tu primer empleo.</p>
+        <div class="social"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="LinkedIn">in</a><a href="#" aria-label="YouTube">YT</a><a href="#" aria-label="WhatsApp">WA</a></div>
+      </div>
+      <div><h4>Programa</h4><a href="#beneficios">Beneficios</a><a href="#como-funciona">Cómo funciona</a><a href="#temario">Temario</a><a href="#testimonios">Testimonios</a><a href="#faq">Preguntas frecuentes</a></div>
+      <div><h4>Contacto</h4><a href="mailto:hola@codenova.example">hola@codenova.example</a><a href="#">+57 300 000 0000</a><a href="#">Bogotá, Colombia</a><a href="#">Lunes a viernes · 8:00 a.m. – 6:00 p.m.</a></div>
+      <div><h4>Legal</h4><a href="#">Términos y condiciones</a><a href="#">Política de privacidad</a><a href="#">Política de cookies</a><a href="#">Política de devoluciones</a></div>
+    </div>
+    <div class="copy">© 2026 CodeNova. Todos los derechos reservados. · Proyecto académico de demostración.</div>
+  </footer>
+
+  <!-- ===== EVENTOS PARA GTM (dataLayer) ===== -->
+  <script src="js/main.js"></script>
+</body>
+</html>
