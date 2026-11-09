@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://1014739596.github.io/lading-page-project/sitemap.xml
